@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Poppins";
+}
+
+.main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  /* background-color: rgb(255, 228, 174); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../Images/Birthday12.jpg");
+  /* background-image: url("../Images/Birthday11.jpg"); */
+  /* background-position: center; */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media only screen and (max-width :900px){
+  .main{
+    justify-content: center;
+    background-position: 1200px;
+  }
+
+}
+
+.title {
+  color: #fff;
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%);
+  text-align: center;
+  top: 50px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+@media only screen and (max-width:500px) {
+    .title{
+      left: 10%;
+      transform: translate(0px);
+    }
+}
+
+.sh {
+  /* color: rgb(255, 115, 0); */
+  color: rgb(0, 255, 255);
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.container {
+  margin-left: 30px;
+  max-width: 250px;
+  color: #fff;
+  background-color: #000000c9;
+  padding: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media only screen and (max-width: 500px) {
+  /* .main {
+    justify-content: center;
+  } */
+  .container {
+    margin-left: 0px;
+  }
+}
+
+.btn {
+  color: #fff;
+  font-size: 18px;
+  margin: 30px 0px;
+  background-color: transparent;
+  padding: 10px 0px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(0,255,255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.g-link {
+  margin: 10px;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: rgb(0,255,255);
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 550;
+  border: none;
+  /* color: rgb(255, 255, 255); */
+  color: #000;
+  cursor: pointer;
+}
+
+.link-section {
+  width: 250px;
+  overflow-x: hidden;
+}
+
+.link {
+  overflow-x: scroll;
+  margin: 10px;
+  font-size: 15px;
+  color: White;
+  text-align: center;
+}
+
+.invisible {
+  min-width: 250px;
+  max-width: 250px;
+  display: none;
+  text-align: center;
+}
+
+.fname,
+.dob {
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.copy-right {
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
