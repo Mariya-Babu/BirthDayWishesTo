@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/BirthDayWishesTo/static/css/main.bb5eeca0.css",
-    "main.js": "/BirthDayWishesTo/static/js/main.87e3fb2f.js",
+    "main.js": "/BirthDayWishesTo/static/js/main.4aa4f6b1.js",
     "static/media/Birthday12.jpg": "/BirthDayWishesTo/static/media/Birthday12.f71b0025fe977eb2fee6.jpg",
     "index.html": "/BirthDayWishesTo/index.html",
     "main.bb5eeca0.css.map": "/BirthDayWishesTo/static/css/main.bb5eeca0.css.map",
-    "main.87e3fb2f.js.map": "/BirthDayWishesTo/static/js/main.87e3fb2f.js.map"
+    "main.4aa4f6b1.js.map": "/BirthDayWishesTo/static/js/main.4aa4f6b1.js.map"
   },
   "entrypoints": [
     "static/css/main.bb5eeca0.css",
-    "static/js/main.87e3fb2f.js"
+    "static/js/main.4aa4f6b1.js"
   ]
 }
